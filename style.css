@@ -1,33 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 20px;
-  padding: 10px;
-}
-
-h1 {
   text-align: center;
+  padding: 20px;
 }
-
-button {
-  display: block;
-  margin: 20px auto;
+#menu button {
+  margin: 10px;
   padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
 }
-
-button:hover {
-  background-color: #0056b3;
-}
-
-#output {
+#content {
   margin-top: 20px;
-  padding: 10px;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+}
+input {
+  margin: 5px;
 }
