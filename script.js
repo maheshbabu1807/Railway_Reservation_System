@@ -1,5 +1,5 @@
-const API_BASE = "http://localhost:8080"; // Update this after Java backend is ready
-
+// const API_BASE = "http://localhost:8080"; // Update this after Java backend is ready
+const API_BASE = "http://localhost:8080";
 function viewTrains() {
   fetch(`${API_BASE}/trains`)
     .then(res => res.json())
@@ -58,3 +58,4 @@ function viewBookings() {
       document.getElementById("content").innerHTML = html;
     });
 }
+
